@@ -18,3 +18,6 @@ foreach (string name in Names)
 {
 Console.WriteLine(name);
 }
+
+///Get length  of an  array /////////
+Console.WriteLine(Names.Length);
