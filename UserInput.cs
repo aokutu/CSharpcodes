@@ -13,11 +13,15 @@ Console.WriteLine(Pi);
 
 
 /////FOREACH  LOOP 
-string[] Names = {"ANDREW","ANTHONY","JIMMY"};
+using System;
+					
+string[] Names = {"ZANDREW","ANTHONY","JIMMY"};
+
+Names.Sort(); //sort array
+Names.Reverse(); //reverses  array
 foreach (string name in Names)
 {
 Console.WriteLine(name);
 }
 
-///Get length  of an  array /////////
 Console.WriteLine(Names.Length);
