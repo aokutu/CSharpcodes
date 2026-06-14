@@ -10,3 +10,11 @@ Console.WriteLine(Firstname);
 
 const double  Pi = 3.14; 
 Console.WriteLine(Pi);
+
+
+/////FOREACH  LOOP 
+string[] Names = {"ANDREW","ANTHONY","JIMMY"};
+foreach (string name in Names)
+{
+Console.WriteLine(name);
+}
